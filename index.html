@@ -16,15 +16,19 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGEZF-qj362Zekwp2p6NztMCkY9_j_B5ykrn8jQOXjrQ&usqp=CAU&ec=48600112" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#"
-            ><img src="./images/Tasty_HUT.png" alt=""
-          /></a>
-          <button
+        <div class="container ">
+          <span id="food"><a class="navbar-brand" href="#"
+            >Food 4 U </a></span>
+          <!-- <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -34,7 +38,7 @@
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
-          </button>
+          </button> -->
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
@@ -66,7 +70,7 @@
           <div class="mx-auto" id="search-section">
             <input type="text" id="search-input" autocomplete="off" />
             <i class="fa-solid fa-magnifying-glass"></i>
-            <button class="btn btn-warning" id="search-btn">search</button>
+            <button class="btn btn-secondary" id="search-btn">Search</button>
           </div>
         </div>
       </section>
@@ -76,7 +80,7 @@
     <main>
       <h2 class="text-center">Your Favourite Food</h2>
       <section id="cards" class="container"></section>
-      <!-- madal  -->
+      <!-- modal  -->
       <!-- Button trigger modal -->
 
       <!-- Modal -->
@@ -87,8 +91,7 @@
         data-bs-keyboard="false"
         tabindex="-1"
         aria-labelledby="staticBackdropLabel"
-        aria-hidden="true"
-      >
+        aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">

@@ -7,7 +7,12 @@
   background-repeat: no-repeat;
   background-blend-mode: overlay;
 }
-
+#food a{
+  font-size: 50px;
+  font-weight: 900;
+  font-family: 'Sacramento', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+}
 #search-section {
   width: 60%;
   height: 40px;
